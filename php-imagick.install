@@ -1,10 +1,10 @@
 post_install() {
   echo '
-    ==> PHP extension
+  ==> PHP extension
 
-    A config file was stored under /etc/php/conf.d/. In order to use this
-    extension make sure to uncomment it from its config file.
-    '
+  A config file was stored under /etc/php/conf.d/. In order to use this
+  extension make sure to uncomment it from its config file.
+  '
 }
 
 post_upgrade() {
